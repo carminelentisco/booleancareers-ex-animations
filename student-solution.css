@@ -1,0 +1,52 @@
+/* YOUR SOLUTIONS HERE */
+
+/* ------ Esercizio 1 ------ */
+
+.ex-1-square {
+    background-color: rgba(255, 0, 0, 0);
+    transition: background 2s;
+}
+
+.ex-1-square:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+/* ------ Esercizio 6 ------ */
+
+.ex-2-square {
+    transition: width  2s;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+/* ------ Esercizio 3 ------ */
+
+.ex-3-square {
+    transition: border-radius 1s;
+}
+
+.ex-3-square:hover {
+    border-radius: 100%;
+}
+
+/* ------ Esercizio 4 ------ */
+
+.ex-4-square {
+    transition: opacity 1s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+/* ------ Esercizio 5 ------ */
+
+.ex-4-square {
+    transition: opacity 1s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+}
