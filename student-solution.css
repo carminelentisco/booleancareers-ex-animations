@@ -118,11 +118,11 @@
 /* ------ Esercizio 11 ----- */
 
 .ex-11-icon:hover {
-    animation: caricamento 2s ease-in ;
+    animation: caricamento-2 2s ease-in ;
 }
 
 
-@keyframes caricamento {
+@keyframes caricamento-2 {
     0%, {
         transform: rotate(0deg);
     }
@@ -167,3 +167,78 @@
         right: calc(90% - 60px);
     }
 }
+
+
+/* ------ Esercizio 12 ------*/
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: secondo-bottone-top 2s linear ;
+}
+
+@keyframes secondo-bottone-top {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    
+    25% {
+        left: calc(100% - 30px);
+        top: -10%
+    }
+
+    40% {
+        left: calc(100% - 30px);
+        top: 100%
+    }
+
+    70% {
+        left: -30px;
+        top: 100%;
+    }
+
+    85% {
+        left: -30px;
+        top: -10px;
+    }
+
+    100% {
+        left: 10%;
+        top: -10px;
+    }    
+}
+
+.ex-13-button:hover .ex-13-bottom-white  {
+    animation: secondo-bottone-bottom 2s linear ;
+}
+
+@keyframes secondo-bottone-bottom {
+    0% {
+        right: 20%;
+    }
+
+    25% {
+        right: calc(100% - 30px);
+        top: 100%;
+    }
+
+    40% {
+        right: calc(100% - 30px);
+        top: -10%;
+    }
+
+    70% {
+        right: -30px;
+        top: -10%;
+    }
+
+    90% {
+        right: -30px;
+        top: 100%; 
+    }
+
+    100% {
+        right: 20%;
+        top: 100%;
+    }
+}
+
